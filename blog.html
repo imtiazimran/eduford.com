@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eduford</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/9555025c5b.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+ <!------header section goes from here------->
+ <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+   <h1> our cirtificate & online programs for 2021</h1>
+</section>
+<!--------------------------blog page contant--------------------------------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left-col">
+            <img src="img/certificate.jpg" alt="">
+            <h2>our cirtificate & online programs for 2021</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati minima ea blanditiis, maiores consequatur tempore culpa eius magni quae iusto architecto quidem quos suscipit temporibus. Velit cum similique magnam delectus aut temporibus nobis non qui eum deleniti mollitia, ipsam alias.
+            </p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae delectus nulla commodi voluptates pariatur non provident iusto, placeat iure ea excepturi ut, eaque quia. Eaque similique accusantium veniam fugiat porro veritatis delectus sed cupiditate a velit amet illo quasi earum, debitis error impedit. Tenetur incidunt quos cumque ad earum eveniet asperiores voluptatum consectetur deserunt magnam voluptates minus, corrupti quo. Ratione quos quidem quibusdam hic minima quia consequatur libero omnis dolore optio quasi, illum aperiam est, fugit nisi et. Rem dignissimos pariatur molestias amet iure animi voluptas nostrum quas distinctio nihil tempora, a similique inventore dolore quos voluptate! Dignissimos, corporis nemo!</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim alias nam dolore eaque quidem similique inventore perferendis officia necessitatibus sit reiciendis eius natus, iusto amet molestiae quia consequatur quaerat quae suscipit veritatis pariatur accusamus ipsam? Odio quaerat natus aliquam reiciendis a aliquid! Molestias deleniti repellat, delectus ipsum veritatis inventore amet cumque saepe ipsam? Alias reprehenderit dolore fugit voluptatum. Mollitia quaerat deleniti explicabo nihil quae optio perferendis, expedita consequuntur, tempore sint vero reprehenderit doloremque atque. At perferendis temporibus iusto ab explicabo saepe error doloribus voluptatibus maxime, nisi laboriosam quo eligendi aliquam!</p><br>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quis facere esse sapiente illum architecto eum repellendus nesciunt debitis doloremque placeat eligendi fugit, voluptatem quam totam inventore quasi sunt minima, consequuntur maxime officia! Reiciendis inventore unde amet, magnam cupiditate voluptatibus totam neque dolore veniam eligendi, hic labore illo sunt optio doloribus debitis nam quam incidunt, velit fugit itaque. Porro, sapiente. Veniam reiciendis ullam, fugiat eligendi eos quas aliquid officiis aut!</p>
+            <div class="comment-box">
+                <h3>leave a comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" name="" id="" placeholder="Enter Your name">
+                    <input type="email" name="" id="" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right-col">
+            <h3>post categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCad</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>32</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!==================footer==============>
+
+<section class="footer">
+        <h4>about us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex atque aperiam a ipsa ducimus facilis, <br> laudantium beatae nisi, adipisci eveniet optio sed magnam ut.</p>
+        <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>made with <i class="far fa-heart"></i> easy tutorials</p>
+</section> 
+<script>
+    var navLinks = document.querySelector("#navLinks");
+
+    function openmenu(){
+        navLinks.style.right = "0" 
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px" 
+    }
+</script>
+</body>
+</html>
